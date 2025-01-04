@@ -1,0 +1,491 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100%;
+}
+.mainHeader {
+	background-color: #000;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+.navigacija a {
+	text-decoration: none;
+	color: #4e4e4e;
+	letter-spacing: 2px;
+}
+
+.navigacija {
+	width: 60vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	background-color: #151515;
+	gap: 110px;
+	padding: 20px;
+	border-radius: 0 0 10px 10px;
+}
+.navMenu {
+	display: flex;
+	gap: 80px;
+	align-items: center;
+}
+
+.socialMedia {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+.HeroSection {
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 150px;
+	background-color: #000;
+	color: #fff;
+	padding-bottom: 200px;
+}
+.meInfo {
+	width: 30%;
+}
+
+.meInfo h2 {
+	font-family: sans-serif;
+	font-size: 2rem;
+	margin-bottom: 30px;
+}
+.meInfo p {
+	font-size: 0.8rem;
+	color: #5c5a5a;
+	margin-bottom: 30px;
+	letter-spacing: 3px;
+	line-height: 1.9;
+}
+
+.meBtn {
+	background-color: #327201;
+	color: #fff;
+	font-size: 0.9rem;
+	padding: 20px 60px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.meBtn span {
+	font-style: 2rem;
+	margin-left: 5px;
+}
+.meBtn:hover {
+	opacity: 0.7;
+}
+
+.meImg img {
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+}
+/* CASE STUDIES */
+
+/* Fintech section */
+.CaseHeader {
+	width: 40%;
+	text-align: center;
+	padding: 50px;
+	margin: 0 auto;
+}
+.CaseHeader h2 {
+	font-family: sans-serif;
+	font-size: 2.2rem;
+	margin-bottom: 30px;
+	line-height: 2px;
+}
+.CaseHeader p {
+	font-size: 1rem;
+	margin-bottom: 40px;
+	line-height: 1.6;
+}
+.fintech {
+	width: 80%;
+	margin: 0 auto;
+	background-color: #fff;
+	color: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	margin-bottom: 100px;
+}
+.fintechImg {
+	width: 550px;
+	height: 350px;
+}
+.starerHolder {
+	font-family: sans-serif;
+	font-size: 0.8rem;
+	display: inline-block;
+	color: #fea213;
+	background-color: #fbf7e8;
+	padding: 5px 15px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+.fintech h2 {
+	font-family: sans-serif;
+	font-size: 1.4rem;
+	font-weight: bolder;
+	margin-bottom: 20px;
+}
+
+.fintechInfo {
+	font-family: sans-serif;
+	font-size: 1rem;
+	margin-bottom: 30px;
+}
+.fintechBtn {
+	background-color: #fea213;
+	color: #fff;
+	padding: 10px 30px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.fintechBtn:hover {
+	opacity: 0.7;
+}
+/* EdTech section */
+
+.EdTech {
+	width: 80%;
+	margin: 0 auto;
+	background-color: #fff;
+	color: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	margin-bottom: 100px;
+}
+
+.edtechImg {
+	width: 550px;
+	height: 350px;
+}
+
+.starerHolderEDtech {
+	font-family: sans-serif;
+	font-size: 0.8rem;
+	display: inline-block;
+	color: #0109fb;
+	background-color: #d0e4fd;
+	padding: 5px 15px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+.EdTech h2 {
+	font-family: sans-serif;
+	font-size: 1.4rem;
+	font-weight: bolder;
+	margin-bottom: 20px;
+}
+.edtechBtn {
+	background-color: #0109fb;
+	color: #fff;
+	padding: 10px 30px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.edtechBtn:hover {
+	opacity: 0.7;
+}
+.edtechInfo {
+	font-family: sans-serif;
+	font-size: 1rem;
+	margin-bottom: 30px;
+}
+
+/* Pharma section */
+
+.pharma {
+	width: 80%;
+	margin: 0 auto;
+	background-color: #fff;
+	color: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	margin-bottom: 100px;
+}
+
+.pharmaImg {
+	width: 550px;
+	height: 350px;
+}
+
+.starerHolderPharma {
+	font-family: sans-serif;
+	font-size: 0.8rem;
+	display: inline-block;
+	color: #29b091;
+	background-color: #dffff8;
+	padding: 5px 15px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+
+.pharma h2 {
+	font-family: sans-serif;
+	font-size: 1.4rem;
+	font-weight: bolder;
+	margin-bottom: 20px;
+}
+.pharmaInfo {
+	font-family: sans-serif;
+	font-size: 1rem;
+	margin-bottom: 30px;
+}
+.pharmaBtn {
+	background-color: #29b091;
+	color: #fff;
+	padding: 10px 30px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.pharmaBtn:hover {
+	opacity: 0.7;
+}
+/* TESTIMONIAL SECTION */
+.testimonialSection {
+	width: 100%;
+	background-color: #000;
+	padding: 70px 0;
+}
+.testimonialHeader {
+	width: 30%;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+}
+.testimonialSection h1 {
+	font-family: sans-serif;
+	font-size: 1.6rem;
+	padding: 20px 0;
+}
+.testimonialHeader p {
+	margin-bottom: 50px;
+}
+.testimonial {
+	width: 50%;
+	font-family: Arial, sans-serif;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 50px;
+	margin: 0 auto;
+}
+
+.testimonialCard {
+	background-color: #1e1e1e;
+	border: 2px solid #333;
+	border-radius: 8px;
+	padding: 20px;
+	max-width: 400px;
+	text-align: center;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.testimonial blockquote {
+	font-style: italic;
+	position: relative;
+	margin: 0 0 20px;
+	padding: 0 20px;
+}
+
+.testimonial blockquote:before {
+	content: "“";
+	font-size: 60px;
+	color: #fff;
+	position: absolute;
+	left: -15px;
+	top: -40px;
+}
+.client {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.client img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.client span {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+/* RECENT WORK SECTION */
+
+.recentWork {
+	margin-bottom: 100px;
+}
+
+.recentWorkDiscription {
+	width: 40%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 60px 0;
+	font-family: sans-serif;
+}
+.recentWorkDiscription h2 {
+	margin-bottom: 30px;
+	font-size: 2rem;
+}
+
+.articleWriper {
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+	margin: 0 auto;
+}
+.reecentContent h2 {
+	font-family: sans-serif;
+	font-size: 2rem;
+	margin: 20px 0;
+}
+.reecentContent p {
+	width: 60%;
+	font-size: 0.9rem;
+	margin-bottom: 30px;
+}
+.recentImg {
+	width: 500px;
+	max-height: 330px;
+	border-radius: 10px;
+}
+
+.recentBtn {
+	background-color: #3f8e01;
+	color: #fff;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+.recentBtn:hover {
+	background-color: #fff;
+	color: #3f8e01;
+	border: 2px solid #3f8e01;
+}
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+}
+.content img {
+	width: 30px;
+	padding: 0;
+}
+
+.content img:hover {
+	rotate: 180deg;
+}
+
+/* Concact Form styling  */
+.formCounterner {
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 60px 0;
+}
+
+.contactForm {
+	text-align: center;
+	width: 100%;
+	max-width: 400px;
+}
+.contactForm h1 {
+	font-size: 2rem;
+	margin-bottom: 10px;
+}
+.contactForm p {
+	font-size: 0.9rem;
+	color: #fff;
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
+
+.contactForm form {
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.form-group {
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+label {
+	display: block;
+	font-size: 0.9rem;
+	margin-bottom: 5px;
+	color: #fff;
+}
+input,
+textarea {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 1rem;
+	background-color: #fff;
+	color: #000;
+}
+.formBtn {
+	width: 106%;
+	padding: 20px;
+	font-size: 1rem;
+	color: #fff;
+	background-color: #28a745;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+.formBtn:hover {
+	background-color: #fff;
+	color: #218838;
+	border: 2px solid #218838;
+}
+/* Foooter Styling */
+footer {
+	background-color: #4e4e4e;
+	color: #fff;
+	padding: 20px;
+	font-size: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+}
+
+footer span {
+	color: red;
+}
